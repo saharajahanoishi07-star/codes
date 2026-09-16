@@ -13,29 +13,29 @@ int main() {
     printf("Temperature: ");
     scanf("%f",&x);
     if(a==1){
-     float oishifar,oishikel;
-        oishifar=(x*9+160)/5;
+     float far,kel;
+        far=(x*9+160)/5;
         printf("Celcius:%f\n",x);
-        printf("Farenheit:%f\n",oishifar);
-        oishikel=(x+273);
-        printf("Kelvin:%f",oishikel);
+        printf("Farenheit:%f\n",far);
+        kel=(x+273);
+        printf("Kelvin:%f",kel);
     }
        else if(a==2){
-     float oishicel,oishikel;
+     float cel,kel;
         
-           oishicel=(x*5-160)/9;
+           cel=(x*5-160)/9;
         printf("Farenheit:%f\n",x);
-        printf("Celcius:%f\n",oishicel);
-        oishikel=((5*x-160)/9)+273;
-        printf("Kelvin:%f",oishikel);
+        printf("Celcius:%f\n",cel);
+        kel=((5*x-160)/9)+273;
+        printf("Kelvin:%f",kel);
     }
        else if (a==3){
-     float oishicel,oishifar;
-        oishicel=(x*5-1638)/5;
+     float cel,far;
+        cel=(x*5-1638)/5;
         printf("Kelvin:%f\n",x);
-        printf("Celcius:%f\n",oishicel);
-        oishifar=(9*x-2297)/5;
-        printf("Farenheit:%f",oishifar);
+        printf("Celcius:%f\n",cel);
+        far=(9*x-2297)/5;
+        printf("Farenheit:%f",far);
     } 
     
     
