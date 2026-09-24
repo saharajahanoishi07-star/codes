@@ -7,13 +7,13 @@ int main() {
     if(a>=b && a>=c && a>=d){
         printf("%d",a);
     }
-    if(b>=a && b>=c && b>=d){
+   else if(b>=a && b>=c && b>=d){
         printf("%d",b);
     }
-    if(c>=b && c>=a && c>=d){
+   else if(c>=b && c>=a && c>=d){
         printf("%d",c);
     }
-    if(d>=b && d>=c && d>=a){
+   else if(d>=b && d>=c && d>=a){
         printf("%d",d);
     }
     return 0;
